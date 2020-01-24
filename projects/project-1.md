@@ -5,7 +5,7 @@ image: images/fokyl.png
 title: Fokyl
 permalink: projects/fokyl
 # All dates must be YYYY-MM-DD format!
-date: 2019-07-01
+date: 2020-01-23
 labels:
   - Javascript
   - PHP
@@ -19,25 +19,17 @@ summary: I built a website for entrepreneurs to create profiles and connect in o
   <img class="ui image" src="../images/team.jpg">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Fokyl.com is a site where entrepreneurs can come together, build teams, and then execute on business idea.  They can interact on the site remotely, so for example 5 people can come together from completely different parts of the world and form a company.  It really only requires one person to start the company though.  The functionality of the site allows the creator to start a company tree and place positions on that tree that they need filled.  This functionality was created using Javascript and PHP.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+For this project I was the only programmer in every aspect.  I was working with a marketing specialist who helped design the look and feel of the site, but all the code is my own.  This project took me three months to get to where it is now.  The three main technical abilities demonstrated in this project are the "Create Company", "Facebook Login", and "My Account" pages.
 
-Here is some code that illustrates how we read values from the line sensors:
+Here is some code that illustrates how I created real time Add Position buttons after each submitted position:
 
 ```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
+var newHTML = '<div id="'+id.substring(0, id.length - 2)+siblingNum+'new" class="hv-item-child"><!-- Key component --><div class="hv-item"><div class="hv-item-parent"><div id="'+id.substring(0, id.length - 2)+siblingNum+'" class="person"><img id="'+id.substring(0, id.length - 2)+siblingNum+'img" src="./images/person-silhouette-add.jpg" alt=""><p id="'+id.substring(0, id.length - 2)+siblingNum+'txt" class="name">Add Position</p></div></div><div id="'+id.substring(0, id.length - 2)+siblingNum+'children" class="hv-item-children"></div></div></div>';
 ```
 
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
+You can learn more at the [Fokyl Website](https://fokyl.com/).
 
 
 
