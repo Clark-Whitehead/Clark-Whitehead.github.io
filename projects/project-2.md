@@ -3,23 +3,21 @@ layout: project
 type: project
 image: images/fluzzle.jpg
 title: Vacay
-permalink: projects/vacay
+permalink: projects/Fluzzle
 # All dates must be YYYY-MM-DD format!
-date: 2015-12-15
+date: 2019-06-15
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: A responsive web application for travel planning that my team developed in ICS 415.
+  Shopify
+  
+summary: An online business website used as a biography of the company as well as an online store.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/vacay-home-page.png">
+<img class="ui medium right floated rounded image" src="../images/addFluzzle.jpg">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+Fluzzle Tube is a website build with shopify to sell an invention of mine called the Fluzzle Tube.  It utilizes a pre-built theme that includes add to cart, checkout, credit card transaction, email reciepts, and more.
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+Using shopify to build a website was completely new to me.  It seems easy and fast at first, but in order to get the functionality I wanted I did have to customize some of the code.  However for this project I did not have to utilize Javascript or PHP, only HTML and CSS.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+In this project I gained experience on how the shopify platform works and now can quickly create online stores for any business in a matter of minutes that are fully functional and can being taking payments.  My business on this platform had sales immediately after launch and reached $3000 per day during summer months.
  
-Source: <a href="https://github.com/theVacay/vacay"><i class="large github icon"></i>theVacay/vacay</a>
+You can learn more at the [Fluzzle Tube](https://fluzzletube.com).
