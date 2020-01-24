@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/WW.jpg
+image: images/hillside.jpg
 title: Hillside Chocolates
 permalink: projects/Hillside
 # All dates must be YYYY-MM-DD format!
