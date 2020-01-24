@@ -1,33 +1,46 @@
 ---
 layout: project
 type: project
-image: images/fokyl.png
-title: Fokyl
-permalink: projects/fokyl
+image: images/WW.jpg
+title: Hillside Chocolates
+permalink: projects/Hillside
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-23
 labels:
   - Javascript
   - PHP
   - HTML / CSS
-summary: I built a website for entrepreneurs to create profiles and connect in order to build companies together.
+summary: I built a website for Retailers to place online orders.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/create.jpg">
-  <img class="ui image" src="../images/profile.jpg">
-  <img class="ui image" src="../images/team.jpg">
+  <img class="ui image" src="../images/checkout.jpg">
+  <img class="ui image" src="../images/login.jpg">
+  <img class="ui image" src="../images/add.jpg">
 </div>
 
-Fokyl.com is a site where entrepreneurs can come together, build teams, and then execute on business idea.  They can interact on the site remotely, so for example 5 people can come together from completely different parts of the world and form a company.  It really only requires one person to start the company though.  The functionality of the site allows the creator to start a company tree and place positions on that tree that they need filled.  This functionality was created using Javascript and PHP.
+Hillside Chocolates is a business I created in California in 2015 to sell medical cannabis products to retailers in San Francisco.  The inventory is stored on a phpMyAdmin database and is pulled into the products page using PHP and Javascript.  All the inventory is updated from a backend site I created to keep track of quanitity and live updates the main site when items are "Out of Stock".  Javascript enables the user to view large images of each product, add items to cart, update quantities they want to order from inside the cart, checkout and then recieve an email receipt.
 
-For this project I was the only programmer in every aspect.  I was working with a marketing specialist who helped design the look and feel of the site, but all the code is my own.  This project took me three months to get to where it is now.  The three main technical abilities demonstrated in this project are the "Create Company", "Facebook Login", and "My Account" pages.
+Here is some code that illustrates the PHP used to add new products to the store:
 
-Here is some code that illustrates how I created real time Add Position buttons after each submitted position:
-
-```js
-var newHTML = '<div id="'+id.substring(0, id.length - 2)+siblingNum+'new" class="hv-item-child"><!-- Key component --><div class="hv-item"><div class="hv-item-parent"><div id="'+id.substring(0, id.length - 2)+siblingNum+'" class="person"><img id="'+id.substring(0, id.length - 2)+siblingNum+'img" src="./images/person-silhouette-add.jpg" alt=""><p id="'+id.substring(0, id.length - 2)+siblingNum+'txt" class="name">Add Position</p></div></div><div id="'+id.substring(0, id.length - 2)+siblingNum+'children" class="hv-item-children"></div></div></div>';
+```php
+$query = "INSERT INTO `products` (product, picture, name, type, environment, thc, milliliters, milligrams, cbd, price, stock, numUnits) VALUES (:product, :picture, :name, :type, :environment, :thc, :milliliters, :milligrams, :cbd, :price, :stock, :numUnits)";
+	$statement = $db->prepare($query);
+	$statement->bindValue(':product' , $product);
+	$statement->bindValue(':picture' , $image);
+	$statement->bindValue(':name' , $name);
+	$statement->bindValue(':type' , $type);
+	$statement->bindValue(':environment', $environment);
+	$statement->bindValue(':thc', $thc);
+	$statement->bindValue(':milliliters' , $milliliters);
+	$statement->bindValue(':milligrams' , $milligrams);
+	$statement->bindValue(':cbd' , $cbd);
+	$statement->bindValue(':price' , $price);
+	$statement->bindValue(':stock' , $stock);
+	$statement->bindValue(':numUnits' , $units);
+	$statement->execute();
+	$statement->closeCursor();
 ```
 
-You can learn more at the [Fokyl Website](https://fokyl.com/).
+You can learn more at the [Hillside Website](http://hillsidechocolates.com).
 
