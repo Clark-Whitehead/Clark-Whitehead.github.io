@@ -22,18 +22,14 @@
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
+        "username": "Clark Whitehead",
         "url": "https://www.linkedin.com/in/clark-whitehead-0994b4191/"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
+      "name": "internet of things"
     },
     {
       "name": "data mining",
@@ -51,12 +47,9 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
-        "C",
         "C++",
         "Java",
-        "Javascript",
-        "Assembly",
-        "Common Lisp"
+        "Javascript"
       ]
     },
     {
@@ -65,9 +58,8 @@
       "keywords": [
         "MacOS",
         "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "GitHub",
+        "Windows"
       ]
     }
   ],
