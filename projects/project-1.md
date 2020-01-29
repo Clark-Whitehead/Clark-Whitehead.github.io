@@ -26,7 +26,17 @@ For this project I was the only programmer in every aspect.  I was working with 
 Here is some code that illustrates how I created real time Add Position buttons after each submitted position:
 
 ```js
-var newHTML = '<div id="'+id.substring(0, id.length - 2)+siblingNum+'new" class="hv-item-child"><!-- Key component --><div class="hv-item"><div class="hv-item-parent"><div id="'+id.substring(0, id.length - 2)+siblingNum+'" class="person"><img id="'+id.substring(0, id.length - 2)+siblingNum+'img" src="./images/person-silhouette-add.jpg" alt=""><p id="'+id.substring(0, id.length - 2)+siblingNum+'txt" class="name">Add Position</p></div></div><div id="'+id.substring(0, id.length - 2)+siblingNum+'children" class="hv-item-children"></div></div></div>';
+var newHTML = '<div id="'+id.substring(0, id.length - 2)+siblingNum+'new" class="hv-item-child">
+  <div class="hv-item">
+    <div class="hv-item-parent">
+      <div id="'+id.substring(0, id.length - 2)+siblingNum+'" class="person">
+        <img id="'+id.substring(0, id.length - 2)+siblingNum+'img" src="./images/person-silhouette-add.jpg" alt="">
+          <p id="'+id.substring(0, id.length - 2)+siblingNum+'txt" class="name">Add Position</p>
+      </div>
+    </div>
+    <div id="'+id.substring(0, id.length - 2)+siblingNum+'children" class="hv-item-children"></div>
+  </div>
+</div>';
 ```
 
 You can learn more at the [Fokyl Website](https://fokyl.com/).
