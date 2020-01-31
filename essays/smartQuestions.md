@@ -25,7 +25,8 @@ No matter what your
 Here is an example of a Smart Question
 https://stackoverflow.com/questions/11040472/how-to-check-if-object-property-exists-with-a-variable-holding-the-property-name
 "I am checking for the existence of an object property with a variable holding the property name in question."
-''
+
+'''
 var myObj;
 myObj.prop = "exists";
 var myProp = "p"+"r"+"o"+"p";
@@ -33,4 +34,4 @@ var myProp = "p"+"r"+"o"+"p";
 if(myObj.myProp){
     alert("yes, i have that property");
 };
-''
+'''
