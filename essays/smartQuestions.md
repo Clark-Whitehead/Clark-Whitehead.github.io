@@ -12,6 +12,8 @@ labels:
 
 <img class="ui tiny left circular floated image" src="../images/questions.jpg">
 
+It's very easy to answer your own questions just by searching google, but only if you can type the correct question.
+
 ## Why Ask Questions in the first place
 
 When it comes to tasks such as computer programming, working on a car engine, building a house, curing a patient, or even how to draw a straight line, we should be asking questions to learn.  Each time you asks a question, it should be such a simple question that you can remember it and how to come up with the answer next time.  It's similar to remember someones name.  A name is very simple, it's one word, and you say it over and over again, but the main key here is that you are laser focused on one very simple thing, a name.  Questions need to be like that, or you are missing the entire point of asking a question.  Imagine someone answers you and tells you their name and you just say "ok", and don't process it. You will have to ask again everytime.
@@ -64,4 +66,8 @@ if(myObj.myProp){
 };
 ```
 
-First of all this person has only posted a very small amount of code.  This is perfect.  It shows he knows where the issue was coming from out of his entire program.  He states exactly what he is 
+First of all this person has only posted a very small amount of code.  This is perfect.  It shows he knows where the issue was coming from out of his entire program.  He states exactly what he wants to happen from this little bit of code, "checking existence of an object property", and what the error is, "undefined".  The issue here was he wasn't completely familiar with the most up to date libraries of the language he was using, such as "hasOwnProperty()".  But the question was so good that it only takes a person who knows the language fluently seconds to look at the question and code and provide a very simple answer.  This is very similar to the name analogy I mentioned above.  He will not forget the answer to this because his mind is focused one thing only, one small function name.  Imagine if he posted a huge mess of code and has 10 bugs and someone is able to give him answers for all 10 bugs, he will not be able to remember all 10 of those fixes because it is too much information at once.
+
+Ask focused questions
+
+This essay actually teaches you more about how to program than how to ask questions properly.  Here's the key, constantly test your code as you type it, so if you do get stuck, your question will be very specific and precise.
