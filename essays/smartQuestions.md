@@ -20,6 +20,25 @@ No matter what your
 
 ## What are "Not Smart Questions"? 
 
+Here is an example of a Not Smart Question
+
+https://stackoverflow.com/questions/36890088/sorting-input-radio-boxes-alphabetically/36891877
+
+"I am trying to sort this items alphabetically but it is not sorting all items as it should be. Can you give me some ideas why it is not working ? Here is my fiddle example."
+
+```
+handleAlphaOrder = function() {
+    var fieldItem = $('.field_item');
+    var sorted = $(fieldItem.toArray().sort(function(a, b) {
+        return $(a).find('label').text() > $(b).find('label').text()
+    }));
+
+    fieldItem.each(function(i) {
+        $(this).after(sorted.eq(i));
+    });
+};
+```
+
 ## How to ask "Smart Questions"?
 
 Here is an example of a Smart Question
