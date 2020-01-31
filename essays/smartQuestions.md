@@ -16,7 +16,7 @@ It's very easy to answer your own questions just by searching google, but only i
 
 ## Why Ask Questions in the first place
 
-When it comes to tasks such as computer programming, working on a car engine, building a house, curing a patient, or even how to draw a straight line, we should be asking questions to learn.  Each time you asks a question, it should be such a simple question that you can remember it and how to come up with the answer next time.  It's similar to remember someones name.  A name is very simple, it's one word, and you say it over and over again, but the main key here is that you are laser focused on one very simple thing, a name.  Questions need to be like that, or you are missing the entire point of asking a question.  Imagine someone answers you and tells you their name and you just say "ok", and don't process it. You will have to ask again everytime.
+When it comes to tasks such as computer programming, working on a car engine, building a house, curing a patient, or even how to draw a straight line, we should be asking questions to learn.  Each time you asks a question, it should be such a simple question that you can remember it and how to come up with the answer next time.  It's similar to remembering someones name.  A name is very simple. It's one word, and you say it over and over again. The success comes because you are laser focused on one very simple thing, a name.  Questions need to be like that, or you are missing the entire point of asking a question.  Imagine someone answers you and tells you their name and you just say "ok", and don't process it. You will have to ask again everytime.
 
 ## What are "Not Smart Questions"? 
 
