@@ -30,7 +30,7 @@ You wouldn't have drop down menues without Javascript.  Javascript allows realti
 
 Have you heard of Artificial Intelligence?  If you haven't you're life is lacking some serious excitement.  Self driving cars are most exciting in this arena because we want to be as lazy as possible, but now websites and apps can utilize machine learning as well with the help of Javascript.  
 
-Machine learning requires graphics cards do handle matrix math.  Well luckily there is something called WebGL, which is something Javascript can access in order to create the perfect user experience based on each persons preferences that humans wouldn't be able to see or communicate, such as what type of videos you really love watching on youtube, or what size font holds your attention longest. 
+Machine learning requires graphics cards do handle matrix math.  Well luckily there is something called WebGL, which is something Javascript can access in order to create the perfect user experience based on each persons preferences that humans wouldn't be able to see or communicate, such as what type of videos you really love watching on youtube, or what size font holds your attention longest.
 
 Tensorflow is already creating MS libraries for JS called deeplearn.js.
 
@@ -55,3 +55,5 @@ I find the WODS very annoying at the moment because the addition of a time param
 Javascript is very much so worth learning.
 
 It is without a doubt a necessary skill to have if you want to create web applications that people will enjoy.  You can always create a website with a premade template but I believe it's very rare for that template to fit a business perfectly.  Being able to customize your own website will make your users love your site, and you can't do that properly without Javascript.
+
+Github
