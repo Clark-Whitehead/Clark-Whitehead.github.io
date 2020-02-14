@@ -11,7 +11,7 @@ labels:
   - Coding Standards
 ---
 
-<img class="ui tiny left circular floated image" src="../codeCop.jpg">
+<img class="ui tiny left circular floated image" src="../images/codeCop.jpg">
 
 ## What are "Not Smart Questions"? 
 
