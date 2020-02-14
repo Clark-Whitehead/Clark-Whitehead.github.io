@@ -1,14 +1,16 @@
 ---
 layout: essay
 type: essay
-title: Why Program?
+title: Reflecting on Coding Standards
 # All dates must be YYYY-MM-DD format!
-date: 2020-01-23
+date: 2020-02-13
 labels:
   - Software Engineering
   - Learning
   - Machine Learning
+  - Coding Standards
 ---
 
 <img class="ui tiny left circular floated image" src="../codeCop.jpg">
+
 
