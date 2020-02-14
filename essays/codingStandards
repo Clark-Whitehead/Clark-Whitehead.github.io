@@ -1,0 +1,14 @@
+---
+layout: essay
+type: essay
+title: Why Program?
+# All dates must be YYYY-MM-DD format!
+date: 2020-01-23
+labels:
+  - Software Engineering
+  - Learning
+  - Machine Learning
+---
+
+<img class="ui tiny left circular floated image" src="../codeCop.jpg">
+
