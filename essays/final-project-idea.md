@@ -28,7 +28,7 @@ Meteor is perfect for a messaging app given it's live updated local databases.
 ## Use case ideas
 <ul>
   <li>New user visits website, starts on landing page, creates an account, brought to profile page, informed a new match will be provided at 8am everyday.</li>
-  <li>At 8am the user gets a notification that they are paired with (another user) for that day. His match sends him a new message at 8:15am which says, "Hey there, want to go see a movie later? Jk we are doomed, Covid 19 is armageddon. Anyways, haveing a good day so far? I'm Rachel btw."</li>
+  <li>At 8am the user gets a notification that they are paired with (another user) for that day. His match sends him a new message at 8:15am which says, "Hey there, want to go see a movie later? Jk we are doomed, Covid 19 is armageddon. Anyways, having a good day so far? I'm Rachel btw."</li>
   <li>Profile (viewed by others)</li>
   <li>Terms of service</li>
 </ul>
