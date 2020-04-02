@@ -10,8 +10,7 @@ labels:
 
 ## Overview
 
-  ### Problem:
-  It's hard to make new friends
+  ### Problem: It's hard to make new friends
   
   ### Solution:
 
