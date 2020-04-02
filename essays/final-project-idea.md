@@ -34,4 +34,4 @@ Meteor is perfect for a messaging app given it's live updated local databases.
 </ul>
 
 ## Beyond the basics
-Eventually the app backend will include machine learning to optimize matches for compatability.  This will be a function of time spent talking to new matches.  The greater the time spent talking to new matches the more fit the model is.
+Eventually the app backend will include machine learning to optimize matches for compatability.  This will be a function of time spent talking to new matches.  The more time spent talking to new matches means the model fitness is improving.
