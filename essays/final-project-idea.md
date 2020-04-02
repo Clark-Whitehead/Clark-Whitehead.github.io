@@ -17,13 +17,13 @@ labels:
 ## Approach
 Meteor is perfect for a messaging app given it's live updated local databases.  
 
-  ### Mock up pages:
-  <ul>
-  <li>Landing Page with login and signup</li>
-  <li>MyProfile (only the account owner can see)</li>
-  <li>Profile (viewed by others)</li>
-  <li>Terms of service</li>
-  </ul>
+### Mock up pages:
+<ul>
+<li>Landing Page with login and signup</li>
+<li>MyProfile (only the account owner can see)</li>
+<li>Profile (viewed by others)</li>
+<li>Terms of service</li>
+</ul>
 
 ## Use case ideas
 <ul>
