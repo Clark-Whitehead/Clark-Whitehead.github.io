@@ -10,9 +10,9 @@ labels:
 
 ## Overview
 
-  ## Problem:
+  ### Problem:
   
-  ## Solution:
+  ### Solution:
 
 ## Approach
 
