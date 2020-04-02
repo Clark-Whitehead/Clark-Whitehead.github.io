@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Final Project Idea: IDEA"
+title: "Final Project Idea: HOWDY"
 date: 2019-11-05
 labels:
   - Software Engineering
