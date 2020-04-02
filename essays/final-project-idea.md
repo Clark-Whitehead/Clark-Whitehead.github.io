@@ -12,7 +12,7 @@ labels:
 
 ## Approach
 
-## Mock up pages:
+### Mock up pages:
 
 ## Use case ideas
 
