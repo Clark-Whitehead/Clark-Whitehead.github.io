@@ -12,7 +12,7 @@ labels:
 
 <strong>Problem:</strong> It's hard to make new friends
   
-  ### Solution:
+<strong>Solution:</strong>
 
 ## Approach
 
