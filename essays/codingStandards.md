@@ -11,7 +11,7 @@ labels:
   - College
 ---
 
-<img class="ui left floated image" src="../images/covid.jpg">
+<img class="ui left medium floated image" src="../images/covid.jpg">
 
 ## First hearing the news
   I first heard we were going to transition to online schooling while I was in my Linear Algebra class.  It blew my mind!  I had thought this virus was just another virus that flooded the news, such as swine flu. I didn't believe the people in class talking about it and I had to ask over and over if they were being serious or just messing with me.  I was kind of thrilled because I like being home at my own desk and having my work station while doing homework. It's harder for me to get things done at school.  Once I beleived everyone I started wondering what was to come.  Would we all get the grades we were currently getting? How would the school make it fair?  Would we get some money back? I was stoked that exams would be at home because it would hopefully make it easier having the internet.
