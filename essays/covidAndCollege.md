@@ -3,12 +3,12 @@ layout: essay
 type: essay
 title: Reflecting on Coding Standards
 # All dates must be YYYY-MM-DD format!
-date: 2020-04-02
+date: 2020-02-13
 labels:
-  - Covid
+  - Machine Learning
   - Learning
   - College
-  - Coronavirus
+  - Coding Standards
 ---
 
 <img class="ui tiny left circular floated image" src="../images/codeCop.jpg">
