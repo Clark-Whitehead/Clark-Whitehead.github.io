@@ -3,12 +3,12 @@ layout: essay
 type: essay
 title: Covid and College
 # All dates must be YYYY-MM-DD format!
-date: 2020-02-13
+date: 2020-04-02
 labels:
-  - Software Engineering
+  - Covid
   - Learning
-  - Machine Learning
-  - Coding Standards
+  - Coronavirus
+  - College
 ---
 
 <img class="ui tiny left circular floated image" src="../images/codeCop.jpg">
