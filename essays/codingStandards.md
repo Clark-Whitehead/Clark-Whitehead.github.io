@@ -27,3 +27,5 @@ labels:
   <li>We all get our money back</li>
   <li>We get the option to drop our classes without it being on our record.</li>
   </ul>
+  
+ We all deserve our money back.  We were in the middle of the semester, the work loads are extremely heavy at the part of the semester, especially for a science major.  Every single day is extremely valuable, we barely have enough time to get our homework done and study for exams.  This transition has caused many of us to lose days trying to adobt the new form of learning.  Not being able to see our teachers and ask questions is the biggest problem in my opinion.  We only get to see them online and it's very hard to ask questions in that way.  I like to ask questions with a notepad, a whiteboard, etc. I need them to see what I'm talking about.  I need them to explain with pictures, equations, etc.  We are not getting what we need from our teachers anymore.  It's not their fault, technology is just not as good as face to face interaction.
