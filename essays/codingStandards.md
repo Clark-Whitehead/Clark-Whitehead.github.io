@@ -19,9 +19,11 @@ labels:
 <h2>What has happened so far</h2>
   All of our classes have trinsitioned to online.  Luckily I'm a computer science student because a lot of the homework I was turning in was already online.  For example, in software engineering, we were building websites before the shutdown and we were turning them in on Laulima, UH's online portal.  Now we are doing the same thing, so that class hasn't changed much.  However, once a week we were given a type of pop quiz called a WOD which was worth a lot of points, 100 points, which is 10x a normal assignment.  Now those WODs are worth only 10 points and we are not timed on them.  This is very nice!
   
-  My Hawaiian studies class has moved online which is terrible.  Instead of getting a lecture from the teacher, now we have to read.  I very much dislike reading textbooks that aren't about computer science.  
+  My Hawaiian studies class has moved online which is terrible.  Instead of getting a lecture from the teacher, now we have to read.  I very much dislike reading textbooks that aren't about computer science.  I have a very hard time focusing.  I think that is what most students are complaining about, is that it's hard to focus at home because there are so many distractions.  This Hawaiian studies class is definitely a good example of that for me.
   
- ## What is ESLint?
-  ESLint is an open source JavaScript linting utility originally created by Nicholas C. Zakas in June 2013.  ESLint is a coding standard program that automatically checks your work for you to make sure you are keeping inline of their standards, and that everyones code passes the same tests.  For example ESList makes you use single quotes when quoting a string.  The bennefit of this is that your code will be consistent with your colleague's.  "If your colleague has wrapped a long string in double quotes, and you change one line for the purpose of quoting "part of the string." The program will fail, becaues it will start at he first double quotes and end at the beginning of the section you tried to quote."  'Had your colleague used single quotes, "you could then" use double quotes within that string and correctly quote the section you were intending.'
-  
-  ESList is great because it also lets you know where the functional errors in your code are.  This is great, becaues if you're code isn't working, you don't want to have to search every line for a typo or incorrect syntax.  ESList will make sure you used }, ==, +=, let, etc correctly.  It is a very valuable tool to have and will most likely be implemented at your future office when you get a job, so take the time to learn it now.
+ <h2>What I want to happen</h2>
+ There are two things I would like to see UH implement that would make this semester fair
+ <ul>
+  <li>We all get our money back</li>
+  <li>We get the option to drop our classes without it being on our record.</li>
+  </ul>
