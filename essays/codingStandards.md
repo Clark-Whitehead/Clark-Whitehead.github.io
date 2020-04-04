@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: Reflecting on Coding Standards
+title: Covid and College
 # All dates must be YYYY-MM-DD format!
 date: 2020-02-13
 labels:
