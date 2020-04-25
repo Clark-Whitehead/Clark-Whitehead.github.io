@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Rehoboam"
+title: "The ethics of Hackers:"
 date: 2020-04-25
 labels:
   - Software Engineering
@@ -9,8 +9,6 @@ labels:
   - Ethics
   - Self Driving Cars
 ---
-
-<h1>The ethics of Hackers:</h1>
 
 <h3><i>Gods who write the loops of our lives</i></h3>
 
