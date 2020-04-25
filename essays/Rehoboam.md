@@ -2,7 +2,7 @@
 layout: essay
 type: essay
 title: "The ethics of Hackers:"
-subtitle: "<i>Gods who write the loops of our lives</i>"
+title: "<i>Gods who write the loops of our lives</i>"
 date: 2020-04-25
 labels:
   - Software Engineering
