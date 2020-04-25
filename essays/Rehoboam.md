@@ -10,4 +10,4 @@ labels:
   - Self Driving Cars
 ---
 
-<h1>The ethics of Hackers - The gods who write the loops of our lives:
+<h1>The ethics of Hackers - The gods who write the loops of our lives:</h1>
