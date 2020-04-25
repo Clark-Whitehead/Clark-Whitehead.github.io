@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: The ethics of Hackers:&#58; <br /><h3><i>Gods who write the loops of our lives</i></h3>
+title: The Ethics of Hackers&#58; <br /><h3><i>Gods Who Write the Loops of Our Lives</i></h3>
 date: 2020-04-25
 labels:
   - Software Engineering
