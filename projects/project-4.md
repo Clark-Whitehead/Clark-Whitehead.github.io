@@ -10,7 +10,7 @@ labels:
   - Javascript
   - PHP
   - HTML / CSS
-summary: I built a website for Retailers to place online orders.
+summary: UH Manoa Food Services
 ---
 
 <div class="ui small rounded images">
