@@ -19,28 +19,44 @@ summary: I built a website for Retailers to place online orders.
   <img class="ui image" src="../images/restaurantPage.JPG">
 </div>
 
-Hillside Chocolates is a business I created in California in 2015 to sell medical cannabis products to retailers in San Francisco.  The inventory is stored on a phpMyAdmin database and is pulled into the products page using PHP and Javascript.  All the inventory is updated from a backend site I created to keep track of quanitity and live updates the main site when items are "Out of Stock".  Javascript enables the user to view large images of each product, add items to cart, update quantities they want to order from inside the cart, checkout and then recieve an email receipt.
+The goal of Snackademic is to give students at UH a way to keep track of all their favorite foodtrucks and restaurants across campus, see what their menu offerings are, filter by style of food, and see what hours they are open. In the case of foodtrucks, the app will let the student view exactly where on campus they are located for the day. The app will also let UH students rate their favorite restaurants by creating user profiles. User profiles can also be created for restaurants and admins.
 
-Here is some code that illustrates the PHP used to add new products to the store:
+Here is a link for installation instruction - https://the-back-corner.github.io/
 
-```php
-$query = "INSERT INTO `products` (product, picture, name, type, environment, thc, milliliters, milligrams, cbd, price, stock, numUnits) VALUES (:product, :picture, :name, :type, :environment, :thc, :milliliters, :milligrams, :cbd, :price, :stock, :numUnits)";
-	$statement = $db->prepare($query);
-	$statement->bindValue(':product' , $product);
-	$statement->bindValue(':picture' , $image);
-	$statement->bindValue(':name' , $name);
-	$statement->bindValue(':type' , $type);
-	$statement->bindValue(':environment', $environment);
-	$statement->bindValue(':thc', $thc);
-	$statement->bindValue(':milliliters' , $milliliters);
-	$statement->bindValue(':milligrams' , $milligrams);
-	$statement->bindValue(':cbd' , $cbd);
-	$statement->bindValue(':price' , $price);
-	$statement->bindValue(':stock' , $stock);
-	$statement->bindValue(':numUnits' , $units);
-	$statement->execute();
-	$statement->closeCursor();
+Here is an example of the code used in our application
+
+```html
+class App extends React.Component {
+  render() {
+    return (
+        <Router>
+          <div>
+            <NavBar/>
+            <Switch>
+              <Route exact path="/" component={Landing}/>
+              <Route path="/signin" component={Signin}/>
+              <Route path="/signup" component={Signup}/>
+              <Route path="/foodtruck/:_id" component={FoodTruck}/>
+              <Route path="/restaurant/:_id" component={Restaurant}/>
+              <Route path="/Hours" component={Hours}/>
+              <Route path="/Map" component={Map}/>
+              <ProtectedRoute path="/favorites" component={FavoritesPage}/>
+              <ProtectedRoute path="/myeatery" component={MyEatery}/>
+              <ProtectedRoute path="/add" component={AddStuff}/>
+              <ProtectedRoute path="/edit/:_id" component={EditStuff}/>
+              <ProtectedRoute path="/edit/:_id" component={EditStuff}/>
+              <AdminProtectedRoute path="/allaccounts" component={AllAccountsPage}/>
+              <ProtectedRoute path="/signout" component={Signout}/>
+              <ProtectedRoute path="/userprofile" component={UserProfilePage}/>
+              <Route component={NotFound}/>
+            </Switch>
+            <Footer/>
+          </div>
+        </Router>
+    );
+  }
+}
 ```
 
-You can learn more at the [Hillside Website](http://hillsidechocolates.com).
 
+http://snackademic.meteorapp.com/#/
