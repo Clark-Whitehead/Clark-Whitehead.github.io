@@ -1,8 +1,8 @@
 ---
 layout: project
 type: project
-image: images/hillside.jpg
-title: Hillside Chocolates
+image: images/snackademic.jpg
+title: Snackademic
 permalink: projects/Hillside
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-23
