@@ -12,6 +12,9 @@ labels:
   - HTML / CSS
 summary: UH Manoa Food Services
 ---
+<head>
+  <meta http-equiv="refresh" content="0; URL='http://google.com'" />
+</head
 
 <div class="ui small rounded images">
   <img class="ui image" src="../images/map.JPG">
