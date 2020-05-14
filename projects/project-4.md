@@ -59,4 +59,4 @@ class App extends React.Component {
 ```
 
 
-http://snackademic.meteorapp.com/#/
+<a href="https://github.com/the-back-corner">Our GitHub Page</a>
