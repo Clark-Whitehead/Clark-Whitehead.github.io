@@ -21,7 +21,7 @@ summary: UH Manoa Food Services
 
 The goal of Snackademic is to give students at UH a way to keep track of all their favorite foodtrucks and restaurants across campus, see what their menu offerings are, filter by style of food, and see what hours they are open. In the case of foodtrucks, the app will let the student view exactly where on campus they are located for the day. The app will also let UH students rate their favorite restaurants by creating user profiles. User profiles can also be created for restaurants and admins.
 
-Here is a link for installation instruction - https://the-back-corner.github.io/
+Here is a link for installation instruction - <a href="https://the-back-corner.github.io/"> Snackademic Homepage </a>
 
 Here is an example of the code used in our application
 
