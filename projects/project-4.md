@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/snackademic.JPG
 title: Snackademic
-permalink: projects/Hillside
+permalink: projects/Snackademic
 # All dates must be YYYY-MM-DD format!
 date: 2020-01-23
 labels:
